@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+button {
+  background-color: blueviolet;
+  font-size: 32px;
+  color: white;
+  border: solid 2px rgb(89, 40, 136);
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+button:focus {
+  outline: none;
+}
