@@ -4,9 +4,9 @@ btn.addEventListener("click", () => {
   if (navigator.share) {
     navigator
       .share({
-        files: filesArray,
-        title: "Vacation Pictures",
-        text: "Photos from September 27 to October 14.",
+        files: "./audio.mp3",
+        title: "Je l'ai malheureusement",
+        text: "Je l'ai malheureusement tué...",
       })
       .then(() => console.log("Share was successful."))
       .catch((error) => console.log("Sharing failed", error));
